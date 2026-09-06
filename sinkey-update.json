@@ -1,9 +1,9 @@
 {
-  "latestVersion": "1.0.16",
-  "downloadUrl": "https://myfonts.lk/downloads/SinKey-Setup-v1.0.16.exe",
+  "latestVersion": "1.0.17",
+  "downloadUrl": "https://myfonts.lk/downloads/SinKey-Setup-v1.0.17.exe",
   "releaseNotesUrl": "https://myfonts.lk/pages/sinkey-release",
-  "releaseNotesBody": "SinKey v1.0.16 — Plan Upgrade Sync Fix\n\n🔧 CRITICAL BUG FIXES\n- Fixed: When you upgrade your plan on myfonts.lk (monthly → yearly/lifetime), SinKey now picks up the new plan and expiry within 60 seconds\n- Fixed: Plan upgrades and renewals now take effect almost instantly instead of waiting 30 minutes\n- Fixed: Server now correctly updates device limits on plan upgrade (monthly=2 → yearly/lifetime=5)\n- Fixed: Stale key metadata after upgrade no longer causes false expired status",
-  "releaseDate": "2026-09-05",
+  "releaseNotesBody": "SinKey v1.0.17 — Installer Silent Update Fix\n\n🔧 CRITICAL BUG FIX\n- Fixed: Auto-update installer was not applying silently — the installer now passes both /S (NSIS) and --silent (Velopack) flags so updates work on all installer versions\n\nAlso includes v1.0.16 fixes:\n- Plan upgrades from myfonts.lk now sync within 60 seconds\n- Server revalidation syncs plan name, plan code, and device limit\n- Immediate re-check when license expires (catches renewals/upgrade instantly)",
+  "releaseDate": "2026-09-06",
   "fileSize": 72923378,
   "sha256": "b75c1150cf986adad00e83235f55c3c0e7e8729a0ea14ba24167b25b2734e231"
 }
